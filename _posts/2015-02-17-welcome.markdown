@@ -1,4 +1,8 @@
 ---
 layout: post
 ---
-<img src="/images/fulls/03.jpg" class="fit image"> 
+
+
+<h2> Selamat datang</h2>
+
+<img src="/images/fulls/uin-suska.png" class="fit image">

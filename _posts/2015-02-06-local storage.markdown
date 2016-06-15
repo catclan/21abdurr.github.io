@@ -6,7 +6,7 @@ categories: update
 ---
 
 <script type="text/javascript">
-sessionStorage.lastname="";
+sessionStorage.lastname="abdur";
 document.write(sessionStorage.lastname);
 </script> 
 
