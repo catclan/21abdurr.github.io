@@ -6,21 +6,19 @@ categories: update
 ---
 
 <script type="text/javascript">
-localStorage.lastname="Smith";
-document.write(localStorage.lastname);
+sessionStorage.lastname="";
+document.write(sessionStorage.lastname);
 </script> 
-
 
 <!--dan untuk melihat berapa kali user telah melihat web tersebut-->
 <script type="text/javascript">
-if (localStorage.pagecount)
+if (sessionStorage.pagecount)
   {
-  localStorage.pagecount=Number(localStorage.pagecount) +1;
+  sessionStorage.pagecount=Number(sessionStorage.pagecount) +1;
   }
 else
   {
-  localStorage.pagecount=1;
+  sessionStorage.pagecount=1;
   }
-document.write("Visits "+ localStorage.pagecount + " time(s).");
+document.write("Visits "+sessionStorage.pagecount+" time(s) this session.");
 </script> 
-
