@@ -5,5 +5,7 @@ layout: post
 
 <h2> cache manifest</h2>
 <p>
- apa itu <i>cache manifest??</i> <br> menurut <a href="http://www.w3schools.com/html/html5_app_cache.asp">w3schools.com</a>
+ apa fungsi <i>cache manifest??</i> <br> menurut <a href="http://www.w3schools.com/html/html5_app_cache.asp">w3schools.com</a>
+ adalah untuk mengakses halaman website ketika offline.
 </p>
+ofosojnonfonsovhnsdofjvpbpfjahohpi
