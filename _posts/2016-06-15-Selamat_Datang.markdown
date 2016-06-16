@@ -4,6 +4,25 @@ layout: post
 
 
 
+!DOCTYPE html>
+<html>
+<body>
+
+<div id="result"></div>
+
+<script>
+// Check browser support
+if (typeof(Storage) !== "undefined") {
+    // Store
+    localStorage.setItem("West", "life");
+    // Retrieve
+    document.getElementById("result").innerHTML = localStorage.getItem("lastname");
+} else {
+    document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
+}
+</script>
+
+
 <p>Westlife - My love<br>
 <audio controls="controls">
   <source src="/multimedia/My love - Weslife.ogg" type="audio/ogg" />
@@ -11,22 +30,6 @@ layout: post
 Your browser does not support the audio element.
 </audio> 
 </p>
+</body>
+</html>
 
-
-<script type="text/javascript">
-sessionStorage.lastname="multimedia";
-document.write(sessionStorage.lastname);
-</script> 
-
-<!--dan untuk melihat berapa kali user telah melihat web tersebut-->
-<script type="text/javascript">
-if (sessionStorage.pagecount)
-  {
-  sessionStorage.pagecount=Number(sessionStorage.pagecount) +1;
-  }
-else
-  {
-  sessionStorage.pagecount=1;
-  }
-document.write("Visits "+sessionStorage.pagecount+" time(s) this session.");
-</script> 
