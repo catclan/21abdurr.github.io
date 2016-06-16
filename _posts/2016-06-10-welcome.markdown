@@ -1,9 +1,0 @@
----
-layout: post
----
-
-
-<h2> Selamat datang</h2>
-
-<img src="/images/fulls/02.jpg" class="fit image">
-
