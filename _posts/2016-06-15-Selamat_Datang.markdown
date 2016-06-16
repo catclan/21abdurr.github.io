@@ -4,7 +4,6 @@ layout: post
 
 
 
-!DOCTYPE html>
 <html>
 <body>
 
@@ -14,7 +13,7 @@ layout: post
 // Check browser support
 if (typeof(Storage) !== "undefined") {
     // Store
-    localStorage.setItem("West", "life");
+    localStorage.setItem("Westlife", "Mylove");
     // Retrieve
     document.getElementById("result").innerHTML = localStorage.getItem("lastname");
 } else {
