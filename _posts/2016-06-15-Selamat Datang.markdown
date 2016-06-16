@@ -4,7 +4,7 @@ layout: post
 
 
 
-<html>
+<html manifest="cache-manifest.manifest">
 <body>
 
 <div id="result"></div>
