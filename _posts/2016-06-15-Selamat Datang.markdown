@@ -23,13 +23,18 @@ if (typeof(Storage) !== "undefined") {
 
  </body>
 </html>
-<p>Westlife - My love<br>
+
+<h3> coba dengarkan seksama musik dibawah ini</h3>
+<br>pastinya menggunakan format .Ogg :D <br>
+
+
+<p>Westlife - My love<br> tanpa fate in dan Fat out
 <audio controls="controls">
   <source src="/multimedia/My love - Weslife.ogg" type="audio/ogg" />
   Your browser does not support the audio element.
 </audio> 
 </p>
-<p>Ayu tingting - sambal lado<br>
+<p>Ayu tingting - sambal lado<br>dengan fate in dan fate out
 <audio controls="controls">
    <source src="/multimedia/Ayu Ting Ting - Sambalado.ogg" type="audio/ogg"/>
 Your browser does not support the audio element.
