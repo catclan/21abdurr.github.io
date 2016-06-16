@@ -5,5 +5,5 @@ layout: post
 
 <h2> Selamat datang</h2>
 
-<img src="/images/fulls/uin-suska.png" class="fit image">
+<img src="/images/fulls/uin-suska.jpg" class="fit image">
 
