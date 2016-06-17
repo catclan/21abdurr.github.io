@@ -7,28 +7,6 @@ layout: post
 <html manifest="cache-manifest.manifest">
 <body>
 
-
-
-<div>
-	
-		<h3> coba dengarkan seksama musik dibawah ini</h3>
-	<br>pastinya menggunakan format .Ogg :D <br>
-
-
-	<p>Westlife - My love<br> tanpa fate in dan Fat out <br>
-	<audio controls="controls">
-	  <source src="/multimedia/My love - Weslife.ogg" type="audio/ogg" />
-	  Your browser does not support the audio element.
-	</audio> 
-	</p>
-	<p>Ayu tingting - sambal lado<br>dengan fate in dan fate out<br>
-	<audio controls="controls">
-	   <source src="/multimedia/Ayu Ting Ting - Sambalado.ogg" type="audio/ogg"/>
-	Your browser does not support the audio element.
-	</audio>
-</div>
-</body>
-</html>
 <div id="result"></div>
 
 <script>
@@ -43,4 +21,22 @@ if (typeof(Storage) !== "undefined") {
 }
 </script>
 
- 
+ </body>
+</html>
+
+<h3> coba dengarkan seksama musik dibawah ini</h3>
+<br>pastinya menggunakan format .Ogg :D <br>
+
+
+<p>Westlife - My love<br> tanpa fate in dan Fat out <br>
+<audio controls="controls">
+  <source src="/multimedia/My love - Weslife.ogg" type="audio/ogg" />
+  Your browser does not support the audio element.
+</audio> 
+</p>
+<p>Ayu tingting - sambal lado<br>dengan fate in dan fate out<br>
+<audio controls="controls">
+   <source src="/multimedia/Ayu Ting Ting - Sambalado.ogg" type="audio/ogg"/>
+Your browser does not support the audio element.
+</audio>
+
